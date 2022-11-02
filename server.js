@@ -93,7 +93,7 @@ app.route("/success").get(function (req, res) {
 //         throw error;
 //     }
 //
-//     const qry = "CREATE TABLE contactdemo "
+//     const qry = "CREATE TABLE if not exists contactdemo "
 //         + "(id INT AUTO_INCREMENT PRIMARY KEY," +
 //         " first VARCHAR(255), last VARCHAR(255), email VARCHAR(255), zip VARCHAR(10), state VARCHAR(5))";
 //
