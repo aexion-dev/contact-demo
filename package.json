@@ -1,0 +1,23 @@
+{
+  "name": "octagon-contact-form-demo",
+  "version": "1.0.0",
+  "description": "Contact Form built with Vanilla JS + Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alexandher",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multiparty": "^4.2.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.14.1"
+  }
+}
